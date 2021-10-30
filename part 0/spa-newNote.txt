@@ -1,0 +1,5 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server->browser: response = status code 201 created
+
+the browser executes the event handlers that adds our new note to the list and
+renders the new note on the page
